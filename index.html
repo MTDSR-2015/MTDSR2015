@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Mtdsr2015 by MTDSR-2015</title>
+    <title>MTDSR2015 by MTDSR-2015</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Mtdsr2015</h1>
+      <h1 class="project-name">MTDSR2015</h1>
       <h2 class="project-tagline">A mandarin corpus for text-dependent speaker recognition</h2>
       <a href="https://github.com/MTDSR-2015/MTDSR2015" class="btn">View on GitHub</a>
       <a href="https://github.com/MTDSR-2015/MTDSR2015/zipball/master" class="btn">Download .zip</a>
@@ -31,7 +31,7 @@
      5. Two lyrics
 </code></pre>
 
-<p>Specifically, the 8-digit sequences are randomly generated for the purpose of research on prompted text speaker verification. And the rest four parts, which are dedicated to research on speaker-loaded command control and replay attack detection, are selected randomly from their corresponding pre-defined text database. In addition, it is known that channel mismatch problem severely affects the performance of all voiceprint based identity authentication systems, especially for smartphones. Therefore, in MTDSR2015, we take this problem into account. Considering the popularity in China market, four top selling smartphone models are selected as voice recorders including iPhone 5C, Samsung Note3 HUAWEI mate7 and XM4.</p>
+<p>It is known that channel mismatch problem severely affects the performance of all voiceprint based identity authentication systems, especially for smartphones. Therefore, in MTDSR2015, we take this problem into account. Considering the popularity in China market, four top selling smartphone models are selected as voice recorders including iPhone 5C, Samsung Note3 HUAWEI mate7 and XM4.</p>
 
 <p>For MTDSR2015 database, we consider the demography of the population in terms of age and region which are often considered as two main criteria that affect the speaker verification engines. Speakers aged from 22 to 51 are selected, which is consistent with the age range of the target population who use smartphones more often. Addi-tionally, considering the effect of the regions of the speakers, all the target 28 prov-inces and areas in China where people mainly speak mandarin have been covered.</p>
 
@@ -49,76 +49,88 @@
 
 <p>|---------|-wav</p>
 
-<p>|---------|-HUAWEI mate7</p>
+<p>|--------------|-HUAWEI mate7</p>
 
-<p>|------------------|-spk001</p>
+<p>|---------------------------|-spk001</p>
 
-<p>|---------------------------|-digits</p>
+<p>|------------------------------------|-digits</p>
 
-<p>|------------------------------------|-001_01.wav</p>
+<p>|--------------------------------------------|-001_01.wav</p>
 
-<p>|------------------------------------|-001_02.wav</p>
+<p>|--------------------------------------------|-001_02.wav</p>
 
-<p>|------------------------------------|-001_03.wav</p>
+<p>|--------------------------------------------|-001_03.wav</p>
 
-<p>|------------------------------------|-001_...</p>
+<p>|--------------------------------------------|-001_...</p>
 
-<p>|------------------------------------|-001_20.wav</p>
+<p>|--------------------------------------------|-001_20.wav</p>
 
-<p>|---------------------------|-poem</p>
+<p>|-----------------------------------|-poem</p>
 
-<p>|------------------------------------|-001_21.wav</p>
+<p>|--------------------------------------------|-001_21.wav</p>
 
-<p>|------------------------------------|-001_22.wav</p>
+<p>|--------------------------------------------|-001_22.wav</p>
 
-<p>|------------------------------------|-001_23.wav</p>
+<p>|--------------------------------------------|-001_23.wav</p>
 
-<p>|------------------------------------|-001_...</p>
+<p>|--------------------------------------------|-001_...</p>
 
-<p>|------------------------------------|-001_35.wav</p>
+<p>|--------------------------------------------|-001_35.wav</p>
 
-<p>|---------------------------|-news sentences</p>
+<p>|-----------------------------------|-news sentences</p>
 
-<p>|------------------------------------|-001_36.wav</p>
+<p>|--------------------------------------------|-001_36.wav</p>
 
-<p>|------------------------------------|-001_37.wav</p>
+<p>|--------------------------------------------|-001_37.wav</p>
 
-<p>|------------------------------------|-001_38.wav</p>
+<p>|--------------------------------------------|-001_38.wav</p>
 
-<p>|------------------------------------|-001_...</p>
+<p>|--------------------------------------------|-001_...</p>
 
-<p>|------------------------------------|-001_50.wav</p>
+<p>|--------------------------------------------|-001_50.wav</p>
 
-<p>|---------------------------|-phrase</p>
+<p>|-----------------------------------|-phrase</p>
 
-<p>|------------------------------------|-001_51.wav</p>
+<p>|--------------------------------------------|-001_51.wav</p>
 
-<p>|------------------------------------|-001_52.wav</p>
+<p>|--------------------------------------------|-001_52.wav</p>
 
-<p>|------------------------------------|-001_53.wav</p>
+<p>|--------------------------------------------|-001_53.wav</p>
 
-<p>|------------------------------------|-001_...</p>
+<p>|--------------------------------------------|-001_...</p>
 
-<p>|------------------------------------|-001_71.wav</p>
+<p>|--------------------------------------------|-001_71.wav</p>
 
-<p>|----------------------------|-lyrics</p>
+<p>|-----------------------------------|-lyrics</p>
 
-<p>|------------------------------------|-001_72.wav</p>
+<p>|--------------------------------------------|-001_72.wav</p>
 
-<p>|------------------------------------|-001_73.wav</p>
+<p>|--------------------------------------------|-001_73.wav</p>
 
-<p>|------------------|-spk002</p>
+<p>|---------------------------|-spk002</p>
 
-<p>|------------------|-spk003</p>
+<p>|----------------------------|-spk003</p>
 
-<p>|------------------|-...</p>
+<p>|---------------------------|-...</p>
 
-<p>|------------------|-spk181</p>
+<p>|---------------------------|-spk181</p>
+
+<p>|--------------|-iphone5</p>
+
+<p>|-----------------------|...</p>
+
+<p>|--------------|-Samsung Note2</p>
+
+<p>|-----------------------|...</p>
+
+<p>|--------------|-XM4</p>
+
+<p>|-----------------------|...</p>
 
 <p>|---------|-readMe.txt</p>
 </blockquote>
 
-<pre><code>  wav       :signals including the training/cv/test sets.
+<pre><code>  wav       :speech including the training/test sets.
   spkXXX    :stands for speaker #XXX.
   infos     :configuration files which maintains path routes and other useful files.
 </code></pre>
@@ -133,7 +145,7 @@
 
 <p>For public download, you must fill an <a href="http://adsp.pkusz.edu.cn/?page_id=1090">application form</a> first. </p>
 
-<p>Send to : <a href="mailto:MTDSR2015@qq.com">MTDSR2015@qq.com</a></p>
+<p>Send to : <a href="mailto:MTDSR2015@hotmail.com">MTDSR2015@hotmail.com</a></p>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>LICENSE</h2>
@@ -143,7 +155,7 @@
 <p>No commerical usage is permitted. </p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/MTDSR-2015/MTDSR2015">Mtdsr2015</a> is maintained by <a href="https://github.com/MTDSR-2015">MTDSR-2015</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/MTDSR-2015/MTDSR2015">MTDSR2015</a> is maintained by <a href="https://github.com/MTDSR-2015">MTDSR-2015</a>.</span>
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
